@@ -4,6 +4,10 @@ header {
   padding: 10px;
   text-align: center;
 }
+h1,
+h2 {
+  font-family: var(--headline);
+}
 nav {
   background-color: #333;
   color: white;
@@ -21,6 +25,7 @@ nav > ul > li {
 nav > ul > li > a {
   color: white;
   text-decoration: none;
+  font-family: var(--menutext);
 }
 nav > ul > li > a:hover {
   text-decoration: underline;
@@ -31,4 +36,7 @@ footer {
   padding: 10px;
   text-align: center;
   min-height: 200px;
+}
+p {
+  font-family: var(--bodytext);
 }
