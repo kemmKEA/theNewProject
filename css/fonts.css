@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "abel";
+  src: url(../fonts/Abel-Regular.woff);
+}
+@font-face {
+  font-family: "archivo";
+  src: url(../fonts/Archivo-Regular.woff);
+}
+@font-face {
+  font-family: "rubik";
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "heebo";
+  src: url(../fonts/Heebo-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "nunito";
+  src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+:root {
+  --headline: "abel", sans-serif;
+  --bodytext: "archivo", sans-serif;
+  --menutext: "rubik", sans-serif;
+}
